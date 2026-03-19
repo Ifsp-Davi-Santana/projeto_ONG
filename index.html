@@ -6,89 +6,112 @@
         <title>Projeto ONG</title>
     </head>
     <body>
-        <!-- Fim Cabeçalho/topo da página -->
-        <h1>Projeto ONG</h1>
-        <h2>Destaques</h2>
-        <ul align="center" style="display:flex">
-            <img src="img/Tobias.jpg" alt="chachorro" height="200px"
-                width="200px" alt="Cachorro triste">
-            <li>Tobias</li>
+        <!-- Cabeçalho/topo da página -->
+        <header>
 
-            <img src="img/Pedro.jpg" alt="chachorro" height="200px"
-                width="200px" alt="Cachorro triste">
-            <li>Pedro Lucas</li>
+            <h1>Projeto ONG</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAb1BMVEX///8AAABDQ0OHh4dra2t3d3dzc3O/v7+2trYEBATf398oKCj4+Pju7u4LCwsPDw8+Pj7Pz880NDRcXFycnJySkpLFxcVJSUkXFxfm5uZgYGAqKiq3t7cvLy8cHBx9fX2hoaFTU1M5OTmrq6vW1tbVG+vIAAACrklEQVR4nO3cbU/qQBCG4W4PQoHyKhw4VVDQ//8b5SRGZaClLzs7i7mvz5LME5PH7XQlSQAAAAAAAAAAAAAAAAAAiEyerVd/rYfwYD1zJ+PMeo6O8kf36Y/1KJ1M5u5Lz3qYDkZj98Mmt56nrcXWndn9s56onWzqhP279UxtrIYyh3OzgfVUzT1cxjgZvlrP1dB37Uov1qM18rN2peKOyuu8dqV0Yj1fXbJ2paeR9YT1XNautF9Yz1jHtdqVpndwhrxeu9JwZT3nDeW1Kz1Yj1qpqnalx4hrePRUP4dz82hr+FbtSuNIa/h27UrbKGu4Tu1KMdZwvdq9sLaeW6hfu1LfevQzTWpXOkRUw81qVzpGU8NNa1caR/Io37x2pVkUK9U2tStN36xTtK5dyXqj2r52JduNapfalSw3qt1qV1qabVS71q5ktVF97ly7ks1G1UftShYb1Rf/Mf4LXcP+alcKu1GdpFo5TjUc8Azpt3alcC+2FnvNHOE2qv5rV5o9h8ihUbtSiI2qUu1K6i+2PJ3ab1PeDQ9C5XBO97iyCRdkoxpEvbC+TTVzTMLlcE71rPJbfiOJ4hlLSlWDZOGCKC/q1Y7vUqGbI8l7YXL09B9LFv10N1OMsF0u5/1gr7IGHhdaZw7B38b1VXJYvMA6KOQw2ZuO/OeY2rzyOXoPcjDJkRTegxhdE/T/F8XoJQlBCEIQgvymIEU2uCKrfJ6JMUjpznN9X0GO5R/b3VWQiltYFR+LMEjF5rbiQYYg3RCEIEoIQhAlBCGIEoIQRAlBCKKEIARRQhCCKCEIQZRUXZxtF+Q11Ojnqm6ctgti9f/tS89BjO4LJMl7+W2nNkH2dl+/tSj9ap0WQY6WX5yQvxWb9JqKS/qraz+/6UX4XQMAAAAAAAAAAAAAAAAA4M8Hj7Er3N8nxMsAAAAASUVORK5CYII="
+                                alt="ícone home" width="50px"
+                                height="50px"></a></li>
 
-            <img src="img/Bernardo.jpg" alt="chachorro" height="200px"
-                width="200px" alt="Cachorro triste">
-            <li>Bernardo</li>
+                    <li class="li"><a href="pages/doacao.html">Doação</a></li>
+                    <li class="li"><a
+                            href="pages/adocao.html">Adoção</a></li>
+                    <li class="li"><a
+                            href="https://bri.ifsp.edu.br">Contato</a></li>
+                </ul>
+            </nav>
+            <h2>Destaques</h2>
+            <ul align="center" style="display:flex">
+                <img src="img/Tobias.jpg" alt="chachorro" height="200px"
+                    width="200px" alt="Cachorro triste">
+                <li>Tobias</li>
 
-            <img src="img/Junin.avif" alt="chachorro" height="200px"
-                width="200px" alt="Cachorro triste">
-            <li>Junin</li>
-        </ul>
-        <ul>
-            <li><a href="https://bri.ifsp.edu.br"><img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAb1BMVEX///8AAABDQ0OHh4dra2t3d3dzc3O/v7+2trYEBATf398oKCj4+Pju7u4LCwsPDw8+Pj7Pz880NDRcXFycnJySkpLFxcVJSUkXFxfm5uZgYGAqKiq3t7cvLy8cHBx9fX2hoaFTU1M5OTmrq6vW1tbVG+vIAAACrklEQVR4nO3cbU/qQBCG4W4PQoHyKhw4VVDQ//8b5SRGZaClLzs7i7mvz5LME5PH7XQlSQAAAAAAAAAAAAAAAAAAiEyerVd/rYfwYD1zJ+PMeo6O8kf36Y/1KJ1M5u5Lz3qYDkZj98Mmt56nrcXWndn9s56onWzqhP279UxtrIYyh3OzgfVUzT1cxjgZvlrP1dB37Uov1qM18rN2peKOyuu8dqV0Yj1fXbJ2paeR9YT1XNautF9Yz1jHtdqVpndwhrxeu9JwZT3nDeW1Kz1Yj1qpqnalx4hrePRUP4dz82hr+FbtSuNIa/h27UrbKGu4Tu1KMdZwvdq9sLaeW6hfu1LfevQzTWpXOkRUw81qVzpGU8NNa1caR/Io37x2pVkUK9U2tStN36xTtK5dyXqj2r52JduNapfalSw3qt1qV1qabVS71q5ktVF97ly7ks1G1UftShYb1Rf/Mf4LXcP+alcKu1GdpFo5TjUc8Azpt3alcC+2FnvNHOE2qv5rV5o9h8ihUbtSiI2qUu1K6i+2PJ3ab1PeDQ9C5XBO97iyCRdkoxpEvbC+TTVzTMLlcE71rPJbfiOJ4hlLSlWDZOGCKC/q1Y7vUqGbI8l7YXL09B9LFv10N1OMsF0u5/1gr7IGHhdaZw7B38b1VXJYvMA6KOQw2ZuO/OeY2rzyOXoPcjDJkRTegxhdE/T/F8XoJQlBCEIQgvymIEU2uCKrfJ6JMUjpznN9X0GO5R/b3VWQiltYFR+LMEjF5rbiQYYg3RCEIEoIQhAlBCGIEoIQRAlBCKKEIARRQhCCKCEIQZRUXZxtF+Q11Ojnqm6ctgti9f/tS89BjO4LJMl7+W2nNkH2dl+/tSj9ap0WQY6WX5yQvxWb9JqKS/qraz+/6UX4XQMAAAAAAAAAAAAAAAAA4M8Hj7Er3N8nxMsAAAAASUVORK5CYII="
-                        alt="ícone home" width="50px" height="50px"></a></li>
+                <img src="img/Pedro.jpg" alt="chachorro" height="200px"
+                    width="200px" alt="Cachorro triste">
+                <li>Pedro Lucas</li>
 
-            <li class="li"><a href="pages/doacao.html">Doação</a></li>
-            <li class="li"><a href="https://bri.ifsp.edu.br">Adoção</a></li>
-            <li class="li"><a
-                    href="https://bri.ifsp.edu.br">Contato</a></li>
-        </ul>
+                <img src="img/Bernardo.jpg" alt="chachorro" height="200px"
+                    width="200px" alt="Cachorro triste">
+                <li>Bernardo</li>
 
-        <!-- Cabeçalho da Página -->
+                <img src="img/Junin.avif" alt="chachorro" height="200px"
+                    width="200px" alt="Cachorro triste">
+                <li>Junin</li>
+            </ul>
+
+        </header>
+        <!-- Fim do cabeçaho -->
         <!-- Conteúdo Principal da Página -->
-        <h1 id="lol">Adote um Amigo</h1>
+        <main>
+            <h1 id="lol">Adote um Amigo</h1>
 
-        <h2>Quem somos</h2>
-        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.Fusce ut turpis dapibus, blandit dolor vel, pulvinar nisl.
-            Aliquamerat volutpat. Nullam neque magna, imperdiet non nunc in,
-            hendrerittempus est. In dignissim ac nisi a egestas. Fusce gravida
-            cursusultricies. Cras sed convallis diam. Pellentesque imperdiet
-            tortor etnulla facilisis, sit amet aliquet sapien vulputate.
-            Phasellussuscipit quis ante quis pulvinar. Cras arcu mauris, luctus
-            nec metussit amet, accumsan placerat nibh. Sed vel risus lorem.</p>
+            <h2>Quem somos</h2>
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.Fusce ut turpis dapibus, blandit dolor vel, pulvinar nisl.
+                Aliquamerat volutpat. Nullam neque magna, imperdiet non nunc in,
+                hendrerittempus est. In dignissim ac nisi a egestas. Fusce
+                gravida
+                cursusultricies. Cras sed convallis diam. Pellentesque imperdiet
+                tortor etnulla facilisis, sit amet aliquet sapien vulputate.
+                Phasellussuscipit quis ante quis pulvinar. Cras arcu mauris,
+                luctus
+                nec metussit amet, accumsan placerat nibh. Sed vel risus
+                lorem.</p>
 
-        <p>Quisque non dui nulla. Sed efficitur neque blandit magna tristique
-            ultrices. Vivamus at pharetra nisi. Fusce id nulla eu enim hendrerit
-            hendrerit sit amet eu elit. Sed suscipit, felis eu tristique
-            hendrerit, neque risus cursus neque, accumsan consectetur nunc orci
-            maximus nisi. Donec a facilisis nunc, non dictum est. Nunc luctus,
-            mi bibendum fringilla egestas, ante erat lacinia elit, eu dapibus
-            neque lacus eget dolor. Pellentesque vel eros eu nunc vehicula
-            consequat at non enim. Phasellus mauris ligula, tincidunt a libero
-            non, interdum elementum lorem. Nulla dapibus erat ipsum, sit amet
-            tincidunt erat hendrerit et. Maecenas molestie suscipit leo, vitae
-            dictum sapien porta eget. Mauris vestibulum ipsum ultricies magna
-            condimentum porttitor. Duis facilisis pretium sem a posuere.</p>
+            <p>Quisque non dui nulla. Sed efficitur neque blandit magna
+                tristique
+                ultrices. Vivamus at pharetra nisi. Fusce id nulla eu enim
+                hendrerit
+                hendrerit sit amet eu elit. Sed suscipit, felis eu tristique
+                hendrerit, neque risus cursus neque, accumsan consectetur nunc
+                orci
+                maximus nisi. Donec a facilisis nunc, non dictum est. Nunc
+                luctus,
+                mi bibendum fringilla egestas, ante erat lacinia elit, eu
+                dapibus
+                neque lacus eget dolor. Pellentesque vel eros eu nunc vehicula
+                consequat at non enim. Phasellus mauris ligula, tincidunt a
+                libero
+                non, interdum elementum lorem. Nulla dapibus erat ipsum, sit
+                amet
+                tincidunt erat hendrerit et. Maecenas molestie suscipit leo,
+                vitae
+                dictum sapien porta eget. Mauris vestibulum ipsum ultricies
+                magna
+                condimentum porttitor. Duis facilisis pretium sem a posuere.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            placeat, facilis alias impedit unde soluta dicta cum et consequatur
-            itaque tempora error exercitationem ut vitae quos fugiat vel
-            voluptatibus perferendis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                placeat, facilis alias impedit unde soluta dicta cum et
+                consequatur
+                itaque tempora error exercitationem ut vitae quos fugiat vel
+                voluptatibus perferendis!</p>
 
-        <h2>Formas de Contribuição</h2>
-        <ol>
-            <li>Dinhheiro</li>
-            <li>Pix</li>
-            <li>Cartão</li>
-        </ol>
+            <h2>Formas de Contribuição</h2>
+            <ol>
+                <li>Dinhheiro</li>
+                <li>Pix</li>
+                <li>Cartão</li>
+            </ol>
+        </main>
         <!-- Fim do Conteúdo Principal -->
+        <footer>
+            <!-- Rodapé da página -->
+            <p><strong>Telefone de Contato:</strong>(11) 4002-8922</p>
+            <p>Redes Sociais:</p>
 
-        <!-- Rodapé da página -->
-        <p><strong>Telefone de Contato:</strong>(11)4002-8922</p>
-        <p>Redes Sociais:</p>
-
-        <ul style="display:flex">
-            <img src="img/instagram.jpg" alt height="200px">
-            <li>Instagram</li>
-            <img
-                src="img/facebook.png"
-                alt height="200px" width="200px">
-            <li>Facebook</li>
-        </ul>
+            <ul style="display:flex">
+                <img src="img/instagram.jpg" alt height="200px">
+                <li>Instagram</li>
+                <img
+                    src="img/facebook.png"
+                    alt height="200px" width="200px">
+                <li>Facebook</li>
+            </ul>
+        </footer>
         <!-- Final do Rodapé -->
 
         <style>
